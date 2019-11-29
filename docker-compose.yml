@@ -11,7 +11,7 @@ services:
       DB_NAME: campaignsDB
       DB_HOST: my_mongodb
       DB_PORT: 27017
-      CORS_ORIGINS: 'balele'
+      CORS_ORIGINS: '*'
     volumes:
       - ./data/applogs:/tmp/logs
     ports:
