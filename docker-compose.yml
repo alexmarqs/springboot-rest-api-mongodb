@@ -1,0 +1,32 @@
+version: "3.6"
+services:
+  restapi:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: my_restapi
+    environment:
+      DB_USER: devuser
+      DB_PWD: devuser
+      DB_NAME: campaignsDB
+      DB_HOST: my_mongodb
+      DB_PORT: 27017
+      CORS_ORIGINS: 'balele'
+    volumes:
+      - ./data/applogs:/tmp/logs
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongo-database
+  mongo-database:
+    image: mongo
+    container_name: my_mongodb
+    environment: 
+      MONGO_INITDB_ROOT_USERNAME: root 
+      MONGO_INITDB_ROOT_PASSWORD: root 
+      MONGO_INITDB_DATABASE: campaignsDB
+    volumes:
+      - ./init-mongo.js/:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - ./data/mongodb:/data/db
+    ports:
+      - 27017:27017
