@@ -8,7 +8,8 @@ This is a simple example how you can use spring boot + mongodb + docker to creat
 - [x] Docker
 - [x] Swagger 2 (api documentation)
 - [x] CORS filter
-- [ ] Tests
+- [x] Unit Tests
+- [ ] Integration Tests
 - [ ] CI/CD tool
 
 ### System requirements
