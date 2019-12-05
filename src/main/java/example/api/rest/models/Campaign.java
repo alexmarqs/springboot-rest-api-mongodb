@@ -10,6 +10,9 @@ import javax.validation.constraints.NotBlank;
 
 import static example.api.rest.utils.ApiConstants.CAMPAIGNS_SEQUENCE_NAME;
 
+/**
+ * Campaign model collection.
+ */
 @Document(collection = "campaigns")
 @JsonIgnoreProperties(value="campaignStatus", allowGetters= true, ignoreUnknown = true)
 public class Campaign extends BaseDocument {

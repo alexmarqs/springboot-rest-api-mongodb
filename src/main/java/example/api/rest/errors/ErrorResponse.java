@@ -5,6 +5,9 @@ import org.springframework.http.HttpStatus;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Error response.
+ */
 public class ErrorResponse {
 
     private HttpStatus status;

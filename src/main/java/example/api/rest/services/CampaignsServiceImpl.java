@@ -11,6 +11,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+/**
+ * Campaigns service implementation.
+ */
 @Service
 public class CampaignsServiceImpl implements CampaignsService {
 

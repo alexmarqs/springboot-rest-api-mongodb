@@ -2,6 +2,9 @@ package example.api.rest.errors;
 
 import org.springframework.http.HttpStatus;
 
+/**
+ * Error types enumerate.
+ */
 public enum ErrorType {
     CAMPAIGN_NOT_FOUND ("Campaign not found: %s", HttpStatus.NOT_FOUND),
     VALIDATION_ERRORS ("Validation errors", HttpStatus.BAD_REQUEST);

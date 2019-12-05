@@ -1,6 +1,8 @@
 package example.api.rest.errors;
 
-
+/**
+ * API exception.
+ */
 public class ApiException extends RuntimeException {
 
     private ErrorType errorType;

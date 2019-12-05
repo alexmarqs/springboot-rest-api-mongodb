@@ -2,6 +2,9 @@ package example.api.rest.models;
 
 import org.springframework.data.annotation.Id;
 
+/**
+ * Base document.
+ */
 public abstract class BaseDocument {
 
     @Id

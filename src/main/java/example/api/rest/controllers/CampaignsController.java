@@ -18,6 +18,9 @@ import javax.validation.Valid;
 import static example.api.rest.utils.ApiConstants.CAMPAIGNS_PAGE_DEFAULT;
 import static example.api.rest.utils.ApiConstants.CAMPAIGNS_SIZE_DEFAULT;
 
+/**
+ * REST controller to campaigns.
+ */
 @RestController
 @Api(value = "Campaigns")
 @RequestMapping("/campaigns")

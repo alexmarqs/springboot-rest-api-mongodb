@@ -1,5 +1,8 @@
 package example.api.rest.utils;
 
+/**
+ * API constants.
+ */
 public final class ApiConstants {
 
     private ApiConstants() {}

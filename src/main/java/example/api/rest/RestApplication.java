@@ -5,6 +5,9 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Rest API spring boot application.
+ */
 @SpringBootApplication
 public class RestApplication {
 

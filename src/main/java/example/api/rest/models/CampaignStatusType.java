@@ -6,6 +6,9 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 import java.util.Arrays;
 
+/**
+ * Campaign status types enumerate.
+ */
 public enum CampaignStatusType {
     OPEN ("open"),
     EXPIRED ("expired"),
