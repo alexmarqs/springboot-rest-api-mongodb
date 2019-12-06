@@ -9,8 +9,7 @@ This is a simple example how you can use spring boot + mongodb + docker to creat
 - [x] Swagger 2 (api documentation)
 - [x] CORS filter
 - [x] Unit Tests
-- [ ] Integration Tests
-- [ ] CI/CD tool
+- [x] Integration Tests
 
 ### System requirements
 - JDK 11
