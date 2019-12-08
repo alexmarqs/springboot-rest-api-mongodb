@@ -16,6 +16,9 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * Integration tests to campaigns repository.
+ */
 @RunWith(SpringRunner.class)
 @DataMongoTest
 public class CampaignsRepositoryTest {
